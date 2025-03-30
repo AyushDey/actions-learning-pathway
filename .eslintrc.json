@@ -13,6 +13,6 @@
     "quotes": ["error", "double"]
   },
   "linterOptions": {
-    "reportUnusedDisableDirectives": true
+    "overrideConfig.linterOptions.reportUnusedDisableDirectives": true
   }
 }
