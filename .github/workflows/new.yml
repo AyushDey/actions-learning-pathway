@@ -1,0 +1,11 @@
+name: Test
+on: push
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print github url
+        env:
+          GITHUB_URL: ${{ github.api_url }}
+        run: echo "$GITHUB_URL"
